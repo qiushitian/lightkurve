@@ -2327,7 +2327,7 @@ class LightCurve(TimeSeries):
         which in turn wrap `astropy`'s `~astropy.timeseries.LombScargle` and `~astropy.timeseries.BoxLeastSquares`.
 
         Optional keywords accepted if ``method='lombscargle'`` are:
-        ``minimum_frequency``, ``maximum_frequency``, ``mininum_period``,
+        ``minimum_frequency``, ``maximum_frequency``, ``minimum_period``,
         ``maximum_period``, ``frequency``, ``period``, ``nterms``,
         ``nyquist_factor``, ``oversample_factor``, ``freq_unit``,
         ``normalization``, ``ls_method``.
